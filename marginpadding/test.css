@@ -1,0 +1,40 @@
+.head{
+    background-color: bisque;
+    height: 20vh;
+}
+
+.head h1{
+    padding: 10px;
+    text-align: center;
+}
+
+.head p{
+    text-align: center;
+}
+
+
+.head-link{
+    margin-top: 12px;
+    text-align: center;
+}
+
+.head-link a{
+    display: inline-block;
+    padding: 12px 10px;
+    margin-left: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.head-link a:hover{
+    background-color: #f44336;
+    transition: 0.5s;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

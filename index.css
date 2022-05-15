@@ -1,0 +1,41 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.background-top{
+    background-color: aqua;
+    width: 100%;
+    height: 1em;
+    margin: 0;
+}
+
+p{
+    font-family: arial, sans-serif;
+}
+
+
+.list-item-1 li a{
+    color: red;
+}
+
+.list-item-2 li a{
+    color: aquamarine;
+}
+
+button{
+    padding: 15px 30px;
+    background-color: black;
+}
+
+button a {
+    color: orange;
+}
+
+button:hover{
+    background-color: bisque;
+}
+
+a hover{
+    color: black;
+}
