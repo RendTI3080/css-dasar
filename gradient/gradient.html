@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .grade{
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(90deg,#d9a7c7,#fffcdc);
+            transition: 1s;
+        }
+
+        .container{
+            width: 900px;
+            height: 400px;
+            margin: 10px auto;
+            border: 5px solid black;
+        }
+
+        .container:hover .grade{
+            margin-left: 600px;
+        }
+
+        .grade2{
+            width: 300px;
+            height: 300px;
+            margin: 100px auto;
+            background: linear-gradient(to right,#12c2e9 20%,#c471ed,#f64f59);
+        }
+
+        .grade2:hover{
+            transform: scaleX(2);
+            transition: 1s;
+        }
+
+        .grade3{
+            width: 300px;
+            height: 300px;
+            margin: 100px auto;
+            background: linear-gradient(to bottom,#0F2027 10%,#203A43,#2c5364 90%);
+        }
+
+        .grade4{
+            width: 300px;
+            height: 300px;
+            margin: 100px auto;
+            background: radial-gradient(circle farthest-side at top left, red, blue 98%);
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="grade"></div>
+</div>
+<div class="grade2"></div>
+<div class="grade3"></div>
+<div class="grade4"></div>
+</body>
+</html>
