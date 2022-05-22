@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Gallery</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            background: #666666;
+            text-align: center;
+            margin: 50px;
+            color: white;
+        }
+
+        .gallery{
+            width: 80%;
+            margin: 20px auto;
+            list-style: none;
+            border: 10px solid white;
+            background-color: whitesmoke;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-gap: 5px;
+        }
+
+        .gallery img{
+            display: block;
+            width: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<h2>My Gallery</h2>
+<ul class="gallery">
+    <li><img src="../image/1.jpeg" alt=""></li>
+    <li><img src="../image/2.jpg" alt=""></li>
+    <li><img src="../image/3.jpg" alt=""></li>
+    <li><img src="../image/4.jpg" alt=""></li>
+    <li><img src="../image/5.jpg" alt=""></li>
+    <li><img src="../image/6.jpg" alt=""></li>
+    <li><img src="../image/7.jpg" alt=""></li>
+    <li><img src="../image/8.jpg" alt=""></li>
+    <li><img src="../image/9.jpg" alt=""></li>
+    <li><img src="../image/10.jpg" alt=""></li>
+</ul>
+
+</body>
+</html>
